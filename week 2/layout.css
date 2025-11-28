@@ -1,0 +1,68 @@
+
+
+
+.flex-container {
+    display: flex;
+    border: 2px dashed #007bff;
+    padding: 10px;
+    min-height: 100px;
+    margin-top :15px ;
+}
+
+.nav-bar{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e9f5ff;
+
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 8px 15px;
+    border: 1px solid transparent;
+    transition: background-color 0.3s ;
+
+}
+
+.card-wrapper {
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+.flex-item {
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align:center;
+    border-radius: 5px;
+    min-width: 150px;
+
+}
+
+.card-1{
+    flex-grow: 2;
+    background-color: #ffc107;
+
+}
+
+.card-2{
+    flex-grow: 1;
+    background-color: #17a2b8;
+
+}
+
+.card-3{
+    flex-grow: 1;
+    background-color: #17a2b8;
+
+}
+
+.card-4{
+    flex:0 0 100%;
+    background-color: #6c757d;
+    
+}
