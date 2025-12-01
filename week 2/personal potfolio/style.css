@@ -1,0 +1,117 @@
+
+
+header{
+    background-color: blue;
+    margin: 0px;
+    padding: 15px;
+    color: white;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h-logo {
+    display: flex;
+}
+
+.h-logo img {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+header a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+header a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255);
+     transition: 0.5s;
+}
+
+main{
+    padding-left: 50px;
+}
+
+img{
+    border-radius: 50px;
+    border: 2px solid blue;
+  
+}
+
+img:hover{
+    box-shadow: 2px 2px 7px blue;
+    cursor: pointer;
+     transition: 0.8s;
+}
+
+footer{
+    background-color: black;
+    color: yellow;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p:hover {
+    color: red;
+    cursor: pointer;
+     transition: 1s;
+}
+
+table {
+    width: 60%;
+    margin-top: 20px;
+
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+.marks{
+    text-align: center;
+    font-weight: bold;
+}
+
+.marks:hover{
+    background-color: aqua;
+    cursor: pointer;
+     transition: 0.9s;
+}
+
+.active {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+   
+    
+}
+
+.butt {
+    padding: 7px;
+    padding-left: 60px;
+    padding-right: 60px;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+
+.butt:hover {
+    padding: 7px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
