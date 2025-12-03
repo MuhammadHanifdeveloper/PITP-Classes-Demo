@@ -1,14 +1,26 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background-color: #f4f4f9;
+    text-align: justify;
+}
+
+
 
 
 header{
-    background-color: blue;
+    position: fixed; 
     margin: 0px;
     padding: 15px;
-    color: white;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
     padding-left: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
 
 .h-logo {
@@ -21,21 +33,27 @@ header{
 }
 
 header a {
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 20px;
     text-decoration: none;
 
 }
 
 header a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: underline;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
      transition: 0.5s;
 }
 
 main{
-    padding-left: 50px;
+    margin-top: 50px;
+    padding: 50px;
+    margin-right:250px ;
+    margin-left: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(61, 59, 59);
 }
 
 img{
@@ -64,7 +82,7 @@ footer p:hover {
 }
 
 table {
-    width: 60%;
+    width: 100%;
     margin-top: 20px;
 
 }
@@ -77,41 +95,99 @@ td {
     padding: 10px;
 }
 
-.marks{
-    text-align: center;
-    font-weight: bold;
-}
-
-.marks:hover{
-    background-color: aqua;
-    cursor: pointer;
-     transition: 0.9s;
-}
 
 .active {
-    background-color: white;
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: underline;
    
     
 }
 
+
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+ .status-data:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+ }
+
+ .index-data ol li a  {
+    color: rgb(0, 0, 0);  
+    background-color: #f4f4f9;
+    padding: 10px;
+    border-radius: 4px;
+ }
+
+.index-data ol li  {
+    padding: 15px;
+    
+  }
+
+fieldset{
+    border-radius: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+legend{
+    color: blue;
+    font-weight: bold;
+}
+
+.main-butt a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.main-butt a:hover {
+    color: white;
+}
+
+.main-butt{
+    text-align: center;
+    
+}
+
 .butt {
-    padding: 7px;
+    margin-top: 30px;
+    padding: 13px;
     padding-left: 60px;
     padding-right: 60px;
+    background-color: #f4f4f9;
+    color: black;
     transition: 0.4s;
     border-radius: 5px;
 }
 
 .butt:hover {
-    padding: 7px;
+    
     padding-left: 60px;
     padding-right: 60px;
-    background-color: blue;
+    background-color: black;
     color: white;
     border-radius: 5px;
     cursor: pointer;
-
+    box-shadow: 0px 2px 5px black;
 }
 

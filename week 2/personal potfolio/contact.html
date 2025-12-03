@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
+    <title>Muhammad Hanif</title>
     <link href="style.css" rel="stylesheet" >
     <link rel="icon" type="image/png" href="logo.png">
 </head>
@@ -19,26 +19,31 @@
             <a href="contact.html" class="active">Contact</a>
         </nav><br>
     </header>
+    <br><br><hr><br><br>
     <main>
         <h1>Contact</h1>
 
         <form>
             <fieldset>
-                <legend>Your Details </legend><br>
-                <label for="name">Your Name</label><br>
-                <input type="text" placeholder="Enter your name" id="name">
-                <br><br>
-                <label for="email">Your Email</label><br>
-                <input type="Email" placeholder="enter your email" id="email">
-                <br><br>
-                <label for="email">Your Password</label><br>
-                <input type="Password" placeholder="Enter yur Password">
-                <br><br>
-                <label for="email">Your Message</label><br>
-                <textarea placeholder="Enter your message"></textarea>
-                <br><br>
-                <button class="butt" type="submit">Submit</button>
+                <legend>Your Details</legend>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your Name" required>
+                
+                <label for="email">Your Email</label>
+                <input type="email" id="email" required placeholder="Example@gmail.com" >
+                
+                <label for="phone">Your Phone</label>
+                <input type="tel" id="phone" placeholder="0300-0000000" required>
+            </fieldset><br><br>
+            <fieldset>
+                <legend>Your Message</legend>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" required>
+        
+                <label for="message">Your Message</label>
+                <textarea id="message" rows="5" cols="30" required></textarea>
             </fieldset>
+            <button class="butt"> Submit</button>
         </form>
     </main><br><hr><br>
 
