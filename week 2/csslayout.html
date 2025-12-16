@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="layout.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <h1>Flexbox Demo: Container & Item Properties </h1>
+    </header>
+
+    <main>
+        <section class="domo-section">
+            <h2>1. Responsive Navigation Bar (justify content)</h2>
+            <nav class="flex-container nav-bar">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+            </nav>
+
+            <hr>
+
+        </section>
+0
+        <section class="demo-section">
+            <h2>2. Responsive Card Layout (flex-wrap & flex-grow)</h2>
+            <div class="flex-container card-wrapper">
+                <div class="flex-item card card-1"><h3>card 1 (flex-grow: 1)</h3></div>
+                <div class="flex-item card card-2"><h3>card 2 (flex-grow: 2)</h3></div>
+                <div class="flex-item card card-3"><h3>card 3 (flex-grow: 3)</h3></div>
+                <div class="flex-item card card-4"><h3>card 4 (flex-wrap: wrap)</h3></div>
+            </div>
+            <p class="resize-note">Try resizing your browser window horizontally to see the card wrap! </p>
+        </section>
+    </main>
+</body>
+</html>
