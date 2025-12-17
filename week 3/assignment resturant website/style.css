@@ -111,15 +111,15 @@ section p {
     
 .menu-item {
     background:#fff; 
-    border-radius:15px; 
-    text-align:center; 
-    padding:1rem; 
-    box-shadow:0 4px 10px rgba(0,0,0,0.1); 
-    transition:0.3s; 
-    position:relative; 
+    border-radius:15px;
+    text-align:center;
+    padding:1rem;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+    position:relative;
 }
-    
-.menu-item:hover { 
+
+.menu-item:hover {
     transform: translateY(-5px); 
     box-shadow:0 8px 15px rgba(0,0,0,0.2); 
 }
